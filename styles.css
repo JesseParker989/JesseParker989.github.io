@@ -16,16 +16,22 @@ a {
         color: #0056b3;
     }
 
-/* Header Styles */
+/* Header and Navigation Styles */
 header {
-    background: #f8f9fa;
+    background: #007bff;
+    color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
     nav ul li {
@@ -33,9 +39,20 @@ nav ul {
         margin: 0 1rem;
     }
 
+        nav ul li a {
+            color: #fff;
+            font-weight: bold;
+        }
+
+header h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
 /* Section Styles */
 section {
     padding: 4rem 2rem;
+    margin-top: 4rem;
 }
 
     section h2 {
@@ -43,6 +60,23 @@ section {
         color: #007bff;
     }
 
+#about {
+    background: #f8f9fa;
+}
+
+#resume {
+    background: #e9ecef;
+}
+
+#portfolio {
+    background: #f8f9fa;
+}
+
+#contact {
+    background: #e9ecef;
+}
+
+/* Resume Download Link */
 #resume a {
     display: inline-block;
     margin-top: 1rem;
@@ -56,6 +90,27 @@ section {
     #resume a:hover {
         background: #0056b3;
     }
+
+/* Portfolio Section */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+    .portfolio-item img {
+        max-width: 100%;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+
+        .portfolio-item img:hover {
+            transform: scale(1.05);
+        }
 
 /* Contact Form Styles */
 form {
@@ -89,9 +144,11 @@ form {
 
 /* Footer Styles */
 footer {
-    background: #f8f9fa;
+    background: #007bff;
+    color: #fff;
     padding: 1rem 0;
     text-align: center;
+    margin-top: 2rem;
 }
 
     footer ul {
@@ -105,13 +162,13 @@ footer {
         }
 
             footer ul li a {
-                color: #333;
+                color: #fff;
                 font-size: 1.5rem;
                 transition: color 0.3s;
             }
 
                 footer ul li a:hover {
-                    color: #007bff;
+                    color: #0056b3;
                 }
 
 /* Responsive Styles */
