@@ -70,6 +70,22 @@ footer {
 .resume-container {
     margin: 2rem 0; /* Spacing around the resume view box */
 }
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Aspect ratio, adjust as needed (75% for 4:3, 56.25% for 16:9) */
+}
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
     .download-button:hover {
         background-color: #0056b3; /* Darker blue on hover */
         transform: scale(1.05); /* Slightly enlarge button on hover */
