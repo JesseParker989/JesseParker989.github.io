@@ -21,12 +21,12 @@ header {
 }
 
 /* Section Background Colors */
-#about {
+#Codes {
     background: #e9ecef; /* Light gray background for 'About' section */
     padding: 4rem 2rem;
 }
 
-#resume {
+#Codes2 {
     background: #ffffff; /* White background for 'Resume' section */
     padding: 4rem 2rem;
 }
