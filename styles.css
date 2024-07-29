@@ -49,3 +49,40 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+/* General styles for social buttons */
+.social-buttons {
+    display: flex;
+    gap: 1rem; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 2rem; /* Space above the buttons */
+}
+
+.social-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem; /* Increase padding for size */
+    font-size: 1.25rem; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+}
+
+    .social-button.linkedin {
+        background-color: #0077b5; /* LinkedIn color */
+    }
+
+    .social-button.github {
+        background-color: #333; /* GitHub color */
+    }
+
+    .social-button:hover {
+        background-color: #005582; /* Darker shade for LinkedIn on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
+
+    .social-button.github:hover {
+        background-color: #444; /* Darker shade for GitHub on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
