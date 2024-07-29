@@ -67,7 +67,9 @@ footer {
     border: none;
     transition: background-color 0.3s, transform 0.3s;
 }
-
+.resume-container {
+    margin: 2rem 0; /* Spacing around the resume view box */
+}
     .download-button:hover {
         background-color: #0056b3; /* Darker blue on hover */
         transform: scale(1.05); /* Slightly enlarge button on hover */
