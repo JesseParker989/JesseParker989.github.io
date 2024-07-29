@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding-top: 3rem; /*adjust based on banner*/
-    padding: 0;
+    padding: 3rem;
     box-sizing: border-box;
     color: #333;
     background-color: #f4f4f4; /* Light gray background for the whole page */
@@ -28,7 +28,7 @@ header {
 }
 
 #Codes2 {
-    background: #ffffff; /* White background for 'Resume' section */
+    background: #444; /* White background for 'Code2' section */
     padding: 4rem 2rem;
 }
 
