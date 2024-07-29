@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 5rem; /*adjust based on banner*/
+    padding: 10rem; /*adjust based on banner*/
     box-sizing: border-box;
     color: #333;
     background-color: #f4f4f4; /* Light gray background for the whole page */
@@ -27,7 +27,7 @@ header {
 }
 
 #Codes2 {
-    background: #f4f4f4; /* White background for 'Code2' section */
+    background: #fff; /* White background for 'Code2' section */
     padding: 4rem 2rem;
 }
 
