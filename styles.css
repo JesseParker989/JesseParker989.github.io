@@ -21,12 +21,12 @@ header {
 }
 
 /* Section Background Colors */
-#About {
+#about {
     background: #e9ecef; /* Light gray background for 'About' section */
     padding: 4rem 2rem;
 }
 #Codes {
-    background: #e9ecef; /* Light gray background for 'About' section */
+    background: #e9ecef; /* Light gray background for 'Codes' section */
     padding: 4rem 2rem;
 }
 
