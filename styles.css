@@ -49,6 +49,34 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+/* General button styling */
+.download-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .download-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
+
+    .download-button:active {
+        background-color: #004494; /* Even darker blue on click */
+    }
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 2rem; /* Space above the button */
+}
 /* General styles for social buttons */
 .social-buttons {
     display: flex;
