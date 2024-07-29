@@ -1,42 +1,55 @@
 ﻿<!DOCTYPE html>
 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Professional Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Professional Page</h1>
     </header>
     <main>
-        <p>
-            This is my first ever website that I have built!
-        </p>
-        <p>
-            I just graduated with my Bachelor's degree on July 28, 2024.
-
-        </p>
-
-
-
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-        <script src="scripts.js"></script>
-        <a href="https://github.com/JesseParker989/JesseParker989.github.io/raw/main/0_JesseParker_28Jul2024.docx" download>Download my Resume</a>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Brief introduction about yourself.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Download my resume: <a href="https://raw.githubusercontent.com/username/repository/branch/path/to/resume.pdf" download>Download Resume</a></p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Showcase your work here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Jesse Parker</p>
+        <ul>
+            <li><a href="https://github.com/JesseParker989" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jesse-parker-56bb05314/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
