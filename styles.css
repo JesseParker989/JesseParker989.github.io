@@ -86,3 +86,9 @@ footer {
         background-color: #444; /* Darker shade for GitHub on hover */
         transform: scale(1.05); /* Slightly enlarge button on hover */
     }
+@media (max-width: 768px) {
+    .social-button {
+        padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+        font-size: 1rem; /* Adjust font size */
+    }
+}
